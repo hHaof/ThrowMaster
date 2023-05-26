@@ -1781,6 +1781,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3221776996160737789, guid: 48b37c4c91507924295e34ffff8f05c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571704717995331794, guid: 48b37c4c91507924295e34ffff8f05c8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1895,7 +1899,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 2cb44f2ba74d44feaa8292079e48c93d, type: 3}
     - target: {fileID: 4470478426317115154, guid: 48b37c4c91507924295e34ffff8f05c8, type: 3}
       propertyPath: m_text
-      value: Next Level
+      value: Again   Next
       objectReference: {fileID: 0}
     - target: {fileID: 6372329714296218892, guid: 48b37c4c91507924295e34ffff8f05c8, type: 3}
       propertyPath: m_Type
@@ -1905,6 +1909,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: fc3341b3f1dac464baa311991f5499e0, type: 3}
+    - target: {fileID: 7653919061356805848, guid: 48b37c4c91507924295e34ffff8f05c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48b37c4c91507924295e34ffff8f05c8, type: 3}
 --- !u!1 &1647150845 stripped

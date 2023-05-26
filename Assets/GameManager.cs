@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Practice");
     }
 
     public void RestartScene()
@@ -40,13 +40,13 @@ public class GameManager : MonoBehaviour
 
     public void NextLevel()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 2)
+        if (SceneManager.GetActiveScene().buildIndex < 3)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene("Practice");
         }
 
     }
